@@ -9,7 +9,7 @@ function App() {
   return (
   <BrowserRouter>
   <div>
-    <ul>
+    {/* <ul>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
       <li><Link to="/posts?fname=Poomlak&lname=Promdontri">Post Greeting</Link></li>
@@ -17,10 +17,10 @@ function App() {
       <li><Link to="/posts/2">Post 2</Link></li>
       <li><Link to="/Shop">Shop</Link></li>
 
-    </ul>
+    </ul> */}
   </div>
   <Routes>
-    <Route path="/" element={<Home/>}/>
+    <Route path="/" element={<Shop/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/posts" element={<Posts/>}/>
     <Route path="posts/:id"element={<Posts/>}/>
